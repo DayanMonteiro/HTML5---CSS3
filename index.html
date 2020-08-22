@@ -7,67 +7,23 @@
   </head>
 
   <body>
-    <h2>Produtos</h2>
+    <h2>Login</h2>
+    <form>
+<!-- form para criação de formulário-->
+        Login:<br>
+        <input type="text" name="login"><br>
+<!-- input é um comando de entrada de dados
+type para definor o tipo de comando 
+text inserir texto
+login para inserir o login do usuário-->
+        Senha:<br>
+        <input type="password"name="senha"><br>
+<!-- password para inserir senha-->
+        <input type="button" value="Logar">
+<!--button para criar um botão, poderia tambem usar
+submit para enviar os dados inseridos-->
+    </form>
 
-    <!--Para gerar uma tabela eu insito <table></table> que é a tabela... 
-    mas para gerar uma tabelo preciso criar as linhas e os dados, para isso
-    a tag <tr></tr> (table row = linhas da tabela) irá criar as linhas 
-    e a tag <td></td>(table data = dados da tabela) 
-    e uma borda que será a tag border="numeração da borda"
-    para destacar a linha do cabeçalho da tabela usamos 
-    a tag <th></th> table header (cabeça da tabela) essa tag deixará o texto centralizado e em negrito
-  -->
-
-    <table border="2" width="300">
-      <tr>
-        <th>Código</th>
-        <th>Produto</th>
-        <th>Preço</th>
-      </tr>
-
-      <tr>
-        <td>001</td>
-        <td>Notebook</td>
-        <td>R$ 2.500,00</td>
-      </tr>
-
-      <tr>
-        <td>002</td>
-        <td>Tablet</td>
-        <td>R$ 999,99</td>
-      </tr>
-
-      <tr>
-        <td rowspan="2">Desconto</td>
-        <td colspan="2">cupom1 - R$ 10</td>
-      </tr>
-      <tr>
-        <td colspan="2">cupom2 - R$ 12</td>
-      </tr>
-
-      <tr>
-        <td>Total:</td>
-        <td colspan="2">R$ 3.478,98</td>
-      </tr>
-
-      <!--
-    posso querer inserir uma imagem dentro da tabela ficaria
-    <tr>
-        <td>                              width="posso usar por %"
-            <img src="endereço da imagem" width="tamanho da imagem">
-        </td>
-    </tr>
-
-      posso querer inserir um link dentro da tabela ficaria
-    <tr>
-        <td>
-            <a href="endereço do hiperlink"> Clique aqui
-        </td>
-    </tr>
-
-    se eu quiser mudar a extensão da coluna uso a tag colspan="numero desejado"
-    se eu quiser mudar a extensão da linha uso a tag rowspan="numero desejado"
--->
-    </table>
   </body>
+
 </html>
