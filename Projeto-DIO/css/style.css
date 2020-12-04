@@ -1,0 +1,47 @@
+* {
+    margin: 15px;
+}
+
+body {
+    background-color: #28a745;
+
+}
+body img {
+    width: 15%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #28a745;
+    float: right;
+
+  }
+li {
+    font-size: 25px;
+    float: left;
+   
+}
+
+li:hover {
+    
+  }
+
+p {
+    color: #fff;
+    font-size: 25px;
+    text-align: justify;
+}
+
+section img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.servicos {
+    background-color: #fff;
+}
+  
