@@ -1,3 +1,8 @@
-* {
-    margin: 15px;
+.container {
+    background-color:#f09; height: 200px;
+}
+
+.coluna {
+    height: 200px;
+    background-color: black;
 }
